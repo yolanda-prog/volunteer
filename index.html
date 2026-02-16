@@ -1,167 +1,164 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Volunteering | City Community Hub</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Why Volunteer?</title>
 
-  <style>
-    body {
-      font-family: "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-      font-size: 18px;
-      line-height: 1.6;
-      margin: 0;
-      background: #f6f7f9;
-      color: #111;
-    }
+<style>
+body {
+  font-family: "Century Gothic", Arial, sans-serif;
+  margin: 0;
+  background: #f6f7f9;
+  color: #222;
+  line-height: 1.6;
+}
 
-    header {
-      background: #1f5aa6;
-      color: #fff;
-      padding: 18px 22px;
-    }
+.container {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
 
-    header .top {
-      display: flex;
-      gap: 14px;
-      align-items: center;
-      flex-wrap: wrap;
-    }
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
 
-    header h1 {
-      font-size: 26px;
-      margin: 0;
-    }
+h2 {
+  font-size: 26px;
+  margin-top: 40px;
+}
 
-    .wrap {
-      max-width: 980px;
-      margin: 18px auto;
-      padding: 0 18px;
-      display: block; /* one-column layout */
-    }
+.intro {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
 
-    .card {
-      background: #fff;
-      border-radius: 12px;
-      padding: 18px 20px;
-      box-shadow: 0 2px 10px rgba(0,0,0,.06);
-    }
+/* Card Layout */
+.benefit-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
 
-    h2 {
-      margin: 0 0 12px;
-      font-size: 24px;
-    }
+.benefit-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  overflow: hidden;
+}
 
-    h3 {
-      margin: 18px 0 8px;
-      font-size: 20px;
-    }
+.benefit-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+}
 
-    p {
-      margin: 10px 0 0;
-    }
+.benefit-card .content {
+  padding: 16px;
+}
 
-    .small {
-      font-size: 18px;
-      color: #333;
-      line-height: 1.6;
-    }
+.benefit-card h3 {
+  margin-top: 0;
+  font-size: 20px;
+}
 
-    .tag {
-      display: inline-block;
-      font-size: 13px;
-      padding: 6px 12px;
-      border-radius: 999px;
-      background: #e7f0ff;
-      color: #1f5aa6;
-      font-weight: 700;
-      margin-right: 8px;
-    }
-
-    .btn {
-      display: inline-block;
-      background: #1f5aa6;
-      color: #fff;
-      padding: 10px 12px;
-      border-radius: 10px;
-      text-decoration: none;
-      font-size: 15px;
-      font-weight: 700;
-    }
-
-    footer {
-      max-width: 980px;
-      margin: 0 auto 26px;
-      padding: 0 18px;
-      color: #666;
-      font-size: 12px;
-    }
-  </style>
+.benefit-card p {
+  margin-bottom: 0;
+}
+</style>
 </head>
 
 <body>
-  <header>
-    <div class="top">
-      <h1>City Community Hub</h1>
-      <span class="tag">Volunteering</span>
-      <span class="tag">Training &amp; Events</span>
-      <span class="tag">Contact us</span>
-    </div>
-  </header>
 
-  <main class="wrap">
-    <section class="card">
-      <h2>What is volunteering?</h2>
-      <p class="small">
-        Volunteering is when you give your time to support an organisation or a community group.
-        Volunteers are not paid. Some organisations may help with basic costs, such as transport.
-      </p>
-      <p class="small">
-        For people who are new to Australia, volunteering can be a practical way to become part of the community
-        and practise everyday English.
-      </p>
+<div class="container">
 
-      <h2 style="margin-top:22px;">Why volunteer?</h2>
-      <p class="small">Volunteering has many benefits. Some of these are:</p>
+<h1>What is volunteering?</h1>
 
+<p class="intro">
+Volunteering is when you give your time to support an organisation or a community group. 
+Volunteers are not paid. Some organisations may help with basic costs, such as transport.
+</p>
+
+<p class="intro">
+For people who are new to Australia, volunteering can be a practical way to become part of the community and practise everyday English.
+</p>
+
+<h2>Why volunteer?</h2>
+<p class="intro">Volunteering has many benefits. Some of these are:</p>
+
+<div class="benefit-grid">
+
+  <img src="group-happy-diverse-volunteers (1).jpg">
+  
+  <div class="benefit-card">
+    <img src="skills.jpg" alt="Volunteer learning new skills">
+    <div class="content">
       <h3>Learn new skills</h3>
-      <p class="small">
-        Volunteering helps you learn useful skills for everyday life and work. Different roles involve different tasks.
-        This experience can help you prepare for future jobs or training.
+      <p>
+        Volunteering helps you learn useful skills for everyday life and work. 
+        Different roles involve different tasks. This experience can help you prepare for future jobs or training.
       </p>
+    </div>
+  </div>
 
+<img src="mother-daughter-preparing-plant-tree-woods.jpg">
+  
+  <div class="benefit-card">
+    <img src="english.jpg" alt="Two people talking while volunteering">
+    <div class="content">
       <h3>Improve your English skills</h3>
-      <p class="small">
-        Volunteering gives you chances to talk with other people. Regular communication can help you practise spoken English
-        and improve listening skills. You may also become more familiar with local accents and expressions.
+      <p>
+        Volunteering gives you chances to talk with other people. Regular communication can help you practise spoken English and improve listening skills.
       </p>
+    </div>
+  </div>
 
+<img src="mother-daughter-preparing-plant-tree-woods.jpg">
+  
+  <div class="benefit-card">
+    <img src="friends.jpg" alt="Volunteers working together">
+    <div class="content">
       <h3>Meet new people and make friends</h3>
-      <p class="small">
-        Volunteering can help you meet people from different backgrounds. You can make new friends and get to know others
-        in the local community.
+      <p>
+        Volunteering can help you meet people from different backgrounds. You can make new friends and get to know others in the local community.
       </p>
+    </div>
+  </div>
 
+  <!-- ========================= -->
+  <!-- IMAGE 4 GOES HERE -->
+  <!-- Replace culture.jpg with your uploaded image file -->
+  <!-- ========================= -->
+  <div class="benefit-card">
+    <img src="culture.jpg" alt="Community event in Australia">
+    <div class="content">
       <h3>Experience Australian culture</h3>
-      <p class="small">
+      <p>
         By volunteering with local organisations, you can learn how community services and workplaces operate in Australia.
-        This helps you understand how people work together in the community.
       </p>
+    </div>
+  </div>
 
+  <!-- ========================= -->
+  <!-- IMAGE 5 GOES HERE -->
+  <!-- Replace community.jpg with your uploaded image file -->
+  <!-- ========================= -->
+  <div class="benefit-card">
+    <img src="community.jpg" alt="Volunteer helping others">
+    <div class="content">
       <h3>Support others and contribute to the community</h3>
-      <p class="small">
-        Helping others can feel rewarding. Many people find that volunteering helps them feel more connected and part of
-        their community.
+      <p>
+        Helping others can feel rewarding. Many people feel more connected and part of their community.
       </p>
+    </div>
+  </div>
 
-      <p style="margin-top:16px;">
-        <a class="btn" href="#">Find a volunteer role</a>
-      </p>
-    </section>
-  </main>
+</div>
 
-  <footer>
-    Mock webpage for classroom use. Not a real service.
-  </footer>
+</div>
+
 </body>
 </html>
